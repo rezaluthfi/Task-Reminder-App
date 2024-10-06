@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SimpliRemind"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="24dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black"
+        android:layout_marginTop="24dp" />
+
+    <ImageView
+        android:layout_width="340dp"
+        android:layout_height="316dp"
+        android:src="@drawable/img_illustration"
+        android:layout_marginTop="40dp" />
+
+    <Button
+        android:id="@+id/btn_add_task"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Task"
+        android:textSize="14sp"
+        android:background="@drawable/bg_btn"
+        app:backgroundTint="@null"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginTop="40dp" />
+
+    <Button
+        android:id="@+id/btn_all_tasks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="All Tasks"
+        android:textSize="14sp"
+        android:textColor="@color/grey"
+        android:background="@drawable/bg_btn_secondary"
+        app:backgroundTint="@null"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>
